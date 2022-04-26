@@ -225,5 +225,14 @@ toolbarbutton.bookmark-item[open="true"] {
 	background: transparent !important;
 	border: 0 !important;
 }
+#identity-popup, #permission-popup, #protections-popup {
+	appearance:  -moz-mac-vibrant-titlebar-light !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	#identity-popup, #permission-popup, #protections-popup {
+		appearance:  -moz-mac-vibrant-titlebar-dark !important;
+	}
+}
 
 _moz-menuactive

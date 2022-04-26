@@ -191,6 +191,10 @@ menulist>menupopup>menu {
 	border-color: var(--gnome-inactive-button-border-color) !important;
 }
 
+.webextension-browser-action {
+	filter: grayscale(100%);
+}
+
 /* Flat buttons */
 .subviewbutton-back:not(#hack),
 #TabsToolbar .toolbarbutton-1 {

@@ -178,3 +178,13 @@ toolbarspring {
 .urlbar-page-action {
 padding: inherit !important;
 }
+
+.searchbar-engine-one-off-item.search-setting-button {
+	background: -moz-mac-menuselect  !important;
+	color: -moz-mac-menutextselect  !important;
+}
+
+.search-setting-button:hover {
+	background: -moz-mac-menuselect  !important;
+	color: -moz-mac-menutextselect  !important;
+}
